@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MyFlowerShop-Products</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Our Products</h1>
+      <img src="Logo.png" alt="MyFlowerShopLogo" class="logo">
+    </header>
+    <nav>
+      <a href="Home.html" class="menu-item" onmouseover="changeStyle(this)" onmouseout="resetStyle(this)">Home</a>
+      <a href="Products.html" class="menu-item" onmouseover="changeStyle(this)" onmouseout="resetStyle(this)">Products</a>
+      <a href="AboutUs.html" class="menu-item" onmouseover="changeStyle(this)" onmouseout="resetStyle(this)">AboutUs</a>
+      <a href="Contact.html" class="menu-item" onmouseover="changeStyle(this)" onmouseout="resetStyle(this)">Contact</a>
+    </nav>
+    <main>
+      <aside>
+        <div class="container">
+          <h2 id="contactInfo">Contact information</h2>
+          <ul>
+            <li>Phone: +4074 940 790</li>
+            <li>Address: Lalelelor Street, Gaesti City, 275690</li>
+            <li>
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45361.54046306381!2d25.318121950000005!3d44.71764655000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b28872a8e9fcd7%3A0x2009b6ad880c7f45!2zR8SDZciZdGksIFJvbcOibmlh!5e0!3m2!1sro!2sbg!4v1685524067913!5m2!1sro!2sbg" width="150" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <table id="table">
+        <thead>
+          <tr>
+            <th class="center">Product</th>
+            <th class="center">Price</th>
+            <th class="center">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Red roses</td>
+            <td>50 BGN</td>
+            <td>Red roses are the flowers that bring harmony and peace to everything. They can be given with love to anyone.</td>
+          </tr>
+          <tr>
+            <td>Violets</td>
+            <td>30 BGN</td>
+            <td>Violets typically have heart-shaped leaves and asymmetrical flowers.</td>
+          </tr>
+          <tr>
+            <td>Mixed tulips</td>
+            <td>40 BGN</td>
+            <td>Mixed tulips bring cheer and color to any space. These delicate and charming flowers are perfect to brighten the day of your loved ones.</td>
+          </tr>
+          <tr>
+            <td>White carnations</td>
+            <td>30 BGN</td>
+            <td>White carnations represent purity and innocence. These beautiful and elegant flowers are suitable for various special events and gifts.</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p class="center-align">&copy; 2023 MyFlowerShop <a href="Home.html">|Privacy Policy|</a>
+        <a href="Home.html">Terms and Conditions</a>
+      </p>
+    </footer>
+  </body>
+</html>

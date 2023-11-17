@@ -1,0 +1,39 @@
+                         ASSIGNMENT
+
+
+	Design and implement a web site, dedicated to a topic of your own choice. Every page of the site 
+should follow the layout, specified below.
+	All studied technologies must be used – HTML/XHTML, CSS, DOM, and JavaScript.
+	5)The website must have all areas with fixed sizes (Fixed sizes could be specified in pixels).
+
+            A) List of elements to be included in the web site:
+
+2. A navigation area (menu) implemented in JavaScript. Menu buttons can be text hyperlinks or 
+graphic images (student's choice). When hovering a button, the text color and background color 
+should change.
+
+4. A table (not for formatting purposes, but for showing some data with inherent table structure), 
+formatted with CSS. The header row/column should be in different background color and text color.
+
+9. Special formatting for printer, achieved by CSS.
+
+
+	      B)General requirements
+
+
+ The site should consist of at least four pages. 
+ The layout must be implemented by means of CSS. The usage of tables or frames for the layout is 
+unacceptable for this project. 
+ Any HTML / Web authoring environment can be used - Dreamweaver, Microsoft Expression Web, 
+etc., however, the use of only notepad or similar is encouraged. 
+ The student should be able to comment on any piece of code: HTML/CSS/JS; generated or 
+manually written; borrowed from the Internet or own. 
+ HTML pages must adhere to the HTML5 standard. Every page should be validated at 
+http://validator.w3.org. A few errors are acceptable as long as the student can motivate his/her 
+decision not to fix them.
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+html {
+  width: -50px;
+  height: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Comic Sans, cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.btn:hover {
+  color: red;
+  background-color: #555;
+
+  font-family: Comic Sans, cursive;
+}
+
+.txtfield {
+  width: 650px;
+  height: 30px;
+}
+
+footer {
+  background-color: #e8b5ee;
+  text-align: center;
+  height: 40px;
+  font-family: Comic Sans, cursive;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 1700px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  height: 80px;
+  width: 1500px;
+  background-color: white;
+  font-family: Comic Sans, cursive;
+}
+
+.logo {
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  max-width: 120px;
+  margin: 10px;
+}
+
+form {
+  text-align: center;
+  height: 50px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 1500px;
+  font-family: Comic Sans, cursive;
+}
+
+.menu-item {
+  padding: 10px;
+  text-decoration: underline;
+  color: blue;
+  transition: color 0.3s, background-color 0.3s;
+  font-family: Comic Sans, cursive;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  font-family: Comic Sans, cursive;
+}
+
+aside {
+  text-align: left;
+  width: 250px;
+  height: 250px;
+  order: 2;
+  font-family: Comic Sans, cursive;
+  z-index: 10; /*to control the stacking order of elements*/
+}
+
+#map {
+  width: 400px;
+  height: 150px;
+}
+
+.container {
+  background-color: pink;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  width:600px;
+  bottom: 200px;
+}
+
+section {
+  font-family: Comic Sans, cursive;
+}
+
+.image-size {
+  width: 150px;
+  height: 150px;
+}
+
+#contents {
+  position: relative;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table {
+  position: relative;
+  float: left;
+  border-collapse: collapse;
+  width: 900px;
+  height: 40px;
+  font-family: Comic Sans, cursive;
+  margin-bottom: 10px;
+}
+
+.center-align {
+  text-align: center;
+  width: -150px;
+  height: 10px;
+  position: fixed, center;
+}
+
+thead {
+  background-color: pink;
+  color: blue;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Comic Sans, cursive;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  font-family: Comic Sans, cursive;
+}
+
+.description {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Comic Sans, cursive;
+}
+
+.product {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  font-family: Comic Sans, cursive;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: Comic Sans, cursive;
+}
+
+.product p.price {
+  font-weight: bold;
+  font-family: Comic Sans, cursive;
+}
+
+.product p {
+  font-size: 14px;
+  font-family: Comic Sans, cursive;
+}
+
+.fixed-container {
+  background-color: #fde9ff;
+  height: 800px;
+  width:900px;
+  margin: auto;
+  position: fixed;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: baseline;
+}
+
+.title {
+  text-align: center;
+}
+.col {
+  text-align: center;
+  padding: 10px 0;
+  width: 350px;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image-size {
+  max-width: 1500px;
+  height: auto;
+}
+
+.item {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#contactTable td,
+#contactTable th,
+#contactTable tr {
+  border: none;
+}
+
+/* Punctul 9 */
+@media print {
+  header,
+  nav,
+  footer {
+    display: none;
+  }
+
+  main {
+    height: auto;
+  }
+}
